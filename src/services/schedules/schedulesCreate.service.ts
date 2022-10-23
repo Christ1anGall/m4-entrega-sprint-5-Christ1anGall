@@ -39,7 +39,7 @@ const schedulesCreateCreateService = async ({
 
   const daySchele = date.split("/")[2];
 
-  if (today > parseInt(daySchele)) {
+  if (today < parseInt(daySchele)) {
     throw new AppError(400, "bad date");
   }
 

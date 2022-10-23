@@ -84,7 +84,7 @@ export const mockedPropertyInvalidCategoryId: IPropertyRequest = {
 };
 
 export const mockedSchedule: IScheduleRequest = {
-  date: "2022/08/25",
+  date: "2022/08/12",
   hour: "10:30",
   propertyId: "",
   userId: "",

@@ -1,3 +1,5 @@
 export interface ICategoryRequest {
-    name: string
+  name: string;
 }
+
+export interface ICategoryCreate extends ICategoryRequest {}

@@ -8,7 +8,7 @@
     "dev": "ts-node-dev --ignore-watch node_modules src/server.ts",
     "build": "tsc",
     "typeorm": "typeorm-ts-node-commonjs",
-    "test": "cross-env NODE_ENV=test jest --verbose"
+    "test": "cross-env NODE_ENV=test SECRET_KEY=7792125bbce085d0b54cd64a7065aef4 jest --verbose"
   },
   "devDependencies": {
     "@types/express": "^4.17.14",
